@@ -1,13 +1,13 @@
 ## SoleAce Ethical Hacking Technical Report
 
-### Client: SoleAce
-### Date: May 13, 2024
-### Prepared by: Lea S. Cavite and Edlyn Joan Marie E. Examinada
+**Client:** SoleAce
+**Date:** May 13, 2024
+**Prepared by:** Lea S. Cavite and Edlyn Joan Marie E. Examinada
 
-### Executive Summary
+**Executive Summary**
 This report presents the findings of an ethical hacking assessment conducted on SoleAce's systems and networks. The assessment identified several vulnerabilities that could potentially be exploited by malicious actors. The report includes detailed descriptions of the vulnerabilities, their potential impact, and recommendations for remediation to enhance SoleAce's overall security posture.
 
-### Vulnerability Findings
+**Vulnerability Findings**
 
 1. **Outdated WordPress Version**
    - Description: SoleAce's website is running an outdated version of WordPress, which is vulnerable to known security exploits.
@@ -59,7 +59,7 @@ This report presents the findings of an ethical hacking assessment conducted on 
     - Potential Impact: Security breaches or attacks may go unnoticed, and it may be difficult to investigate and respond to incidents effectively.
     - Severity: Medium
 
-### Recommendations for Remediation
+**Recommendations for Remediation**
 
 1. **Update WordPress and Plugins**
    - Ensure WordPress is updated to the latest version and regularly update plugins and themes to patch known vulnerabilities.
@@ -94,5 +94,5 @@ This report presents the findings of an ethical hacking assessment conducted on 
 ### Conclusion
 The ethical hacking assessment conducted on SoleAce's systems and networks has identified several vulnerabilities that could potentially be exploited by malicious actors. It is crucial for SoleAce to address these vulnerabilities and implement the recommended remediation measures to enhance its overall security posture and protect its assets from potential attacks.
 
-Signature: [Lea S. Cavite]
-Signature: [Edlyn Joan Marie E. Examinada]
+**Signature:** [Lea S. Cavite]
+**Signature:** [Edlyn Joan Marie E. Examinada]
