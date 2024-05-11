@@ -2,7 +2,7 @@
 
 **Client:** SoleAce
 **Date:** May 13, 2024
-**Prepared by:** Lea S. Cavite and Edlyn Joan Marie E. Examinada
+**Prepared by:** Lea Jean S. Cavite and Edlyn Joan Marie E. Examinada
 
 **Executive Summary**
 This report presents the findings of an ethical hacking assessment conducted on SoleAce's systems and networks. The assessment identified several vulnerabilities that could potentially be exploited by malicious actors. The report includes detailed descriptions of the vulnerabilities, their potential impact, and recommendations for remediation to enhance SoleAce's overall security posture.
@@ -94,5 +94,5 @@ This report presents the findings of an ethical hacking assessment conducted on 
 ### Conclusion
 The ethical hacking assessment conducted on SoleAce's systems and networks has identified several vulnerabilities that could potentially be exploited by malicious actors. It is crucial for SoleAce to address these vulnerabilities and implement the recommended remediation measures to enhance its overall security posture and protect its assets from potential attacks.
 
-**Signature:** [Lea S. Cavite]
+**Signature:** [Lea Jean S. Cavite]
 **Signature:** [Edlyn Joan Marie E. Examinada]
