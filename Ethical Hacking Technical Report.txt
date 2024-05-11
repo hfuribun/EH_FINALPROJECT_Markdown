@@ -1,0 +1,98 @@
+## SoleAce Ethical Hacking Technical Report
+
+### Client: SoleAce
+### Date: May 13, 2024
+### Prepared by: Lea S. Cavite and Edlyn Joan Marie E. Examinada
+
+### Executive Summary
+This report presents the findings of an ethical hacking assessment conducted on SoleAce's systems and networks. The assessment identified several vulnerabilities that could potentially be exploited by malicious actors. The report includes detailed descriptions of the vulnerabilities, their potential impact, and recommendations for remediation to enhance SoleAce's overall security posture.
+
+### Vulnerability Findings
+
+1. **Outdated WordPress Version**
+   - Description: SoleAce's website is running an outdated version of WordPress, which is vulnerable to known security exploits.
+   - Potential Impact: Attackers could gain unauthorized access to the website, steal sensitive data, or deface the site.
+   - Severity: High
+
+2. **Weak Password Policy**
+   - Description: SoleAce's password policy allows users to create weak passwords, increasing the risk of brute-force attacks.
+   - Potential Impact: Attackers could gain access to user accounts and sensitive data.
+   - Severity: Medium
+
+3. **Unencrypted Sensitive Data Transmission**
+   - Description: SoleAce's website transmits sensitive data, such as login credentials and payment information, over unencrypted HTTP connections.
+   - Potential Impact: Attackers could intercept and steal sensitive data during transmission.
+   - Severity: High
+
+4. **Lack of Two-Factor Authentication**
+   - Description: SoleAce does not have two-factor authentication (2FA) enabled for user accounts, increasing the risk of unauthorized access.
+   - Potential Impact: Attackers could gain access to user accounts and sensitive data even with a valid username and password.
+   - Severity: Medium
+
+5. **Unpatched Software**
+   - Description: Several software components used by SoleAce have known vulnerabilities that have not been patched.
+   - Potential Impact: Attackers could exploit these vulnerabilities to gain unauthorized access, steal data, or disrupt operations.
+   - Severity: Medium
+
+6. **Insecure Direct Object References (IDOR)**
+   - Description: SoleAce's website is vulnerable to IDOR attacks, where attackers can manipulate URLs to access sensitive data they are not authorized to view.
+   - Potential Impact: Attackers could gain access to sensitive customer information, order details, or other confidential data.
+   - Severity: Medium
+
+7. **Cross-Site Scripting (XSS)**
+   - Description: SoleAce's website is vulnerable to XSS attacks, where attackers can inject malicious scripts into web pages to steal user data or hijack user sessions.
+   - Potential Impact: Attackers could steal user cookies, hijack user sessions, or display malicious content to users.
+   - Severity: Medium
+
+8. **SQL Injection**
+   - Description: SoleAce's website is vulnerable to SQL injection attacks, where attackers can manipulate SQL queries to gain unauthorized access to the database.
+   - Potential Impact: Attackers could steal sensitive data, modify or delete data, or even gain administrative access to the database.
+   - Severity: High
+
+9. **Lack of Web Application Firewall (WAF)**
+   - Description: SoleAce does not have a Web Application Firewall (WAF) in place to protect its website from common web application attacks.
+   - Potential Impact: Attackers could exploit various vulnerabilities and launch attacks without being detected or blocked.
+   - Severity: Medium
+
+10. **Insufficient Security Logging and Monitoring**
+    - Description: SoleAce lacks adequate security logging and monitoring mechanisms to detect and respond to security incidents in a timely manner.
+    - Potential Impact: Security breaches or attacks may go unnoticed, and it may be difficult to investigate and respond to incidents effectively.
+    - Severity: Medium
+
+### Recommendations for Remediation
+
+1. **Update WordPress and Plugins**
+   - Ensure WordPress is updated to the latest version and regularly update plugins and themes to patch known vulnerabilities.
+
+2. **Implement Strong Password Policy**
+   - Enforce a strong password policy requiring complex passwords with a minimum length and a combination of characters.
+
+3. **Enable HTTPS Encryption**
+   - Implement HTTPS encryption for all sensitive data transmissions to protect against eavesdropping and data theft.
+
+4. **Enable Two-Factor Authentication**
+   - Enable 2FA for all user accounts, especially those with administrative privileges, to enhance security.
+
+5. **Regularly Apply Software Updates**
+   - Monitor for software updates and security patches, and apply them promptly to mitigate known vulnerabilities.
+
+6. **Implement Access Controls**
+   - Implement proper access controls and input validation to prevent unauthorized access through IDOR attacks.
+
+7. **Implement Input Sanitization**
+   - Implement input sanitization and output encoding to prevent XSS attacks and protect user data.
+
+8. **Use Parameterized Queries**
+   - Use parameterized queries or prepared statements to prevent SQL injection attacks and secure the database.
+
+9. **Deploy Web Application Firewall**
+   - Deploy a WAF solution to detect and mitigate common web application attacks and protect against malicious activities.
+
+10. **Enhance Security Logging and Monitoring**
+    - Implement a comprehensive security logging and monitoring solution to detect and respond to security incidents effectively.
+
+### Conclusion
+The ethical hacking assessment conducted on SoleAce's systems and networks has identified several vulnerabilities that could potentially be exploited by malicious actors. It is crucial for SoleAce to address these vulnerabilities and implement the recommended remediation measures to enhance its overall security posture and protect its assets from potential attacks.
+
+Signature: [Lea S. Cavite]
+Signature: [Edlyn Joan Marie E. Examinada]
